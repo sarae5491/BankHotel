@@ -166,7 +166,7 @@ body {
     display: none;
   }
   .section-rooms {
-    background-image: url("./home/bed.jpg");
+    background-image: url("images/bed.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -504,6 +504,7 @@ footer {
   width: 280px;
   margin-top: 10px;
   cursor: pointer;
+  color:#2a5b46
 }
 
 .footer-text {
