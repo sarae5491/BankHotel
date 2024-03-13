@@ -71,21 +71,6 @@ function scrollToTop() {
 const emailInput = document.getElementById("newsletter-input");
 // Add event listener for the 'keydown' event on the email input field
 emailInput.addEventListener("keydown", (event) => {
-  // Check if the Enter key is pressed
-  if (event.key === "Enter") {
-    // Get the value entered into the email input field
-    const email = emailInput.value;
-    // Send data to the server or perform other actions as needed
-    console.log("Email submitted:", email);
-    // Clear the email input field
-    emailInput.value = "";
-  }
-});
-
-// Get a reference to the email input field
-const emailInput = document.getElementById("newsletter-input");
-// Add event listener for the 'keydown' event on the email input field
-emailInput.addEventListener("keydown", (event) => {
    // Check if the Enter key is pressed
    if (event.key === "Enter") {
      // Get the value entered into the email input field
